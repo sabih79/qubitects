@@ -53,11 +53,13 @@ qubitects/
 └── README.md
 
 Models Included
-Model					Description
-Lung_Sound_vgg.pt			Lung sound classification model
-breastcancer_vgg.pt			Breast cancer ultrasound detection
-breast-thermography_vgg_qnn.pt		Breast thermography hybrid QNN
-heartsound_wav2vec_qnn.pt		Heart sound classification using Wav2Vec + QNN
+| Model                            | Description                                    |
+| -------------------------------- | ---------------------------------------------- |
+| `Lung_Sound_vgg.pt`              | Lung sound classification model                |
+| `breastcancer_vgg.pt`            | Breast cancer ultrasound detection             |
+| `breast-thermography_vgg_qnn.pt` | Breast thermography hybrid QNN                 |
+| `heartsound_wav2vec_qnn.pt`      | Heart sound classification using Wav2Vec + QNN |
+
 
 Installation
 ------------
