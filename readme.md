@@ -34,6 +34,9 @@ The project uses Qiskit Machine Learning integrated with PyTorch through the Tor
 Repository Structure
 --------------------
 
+## Repository Structure
+
+```
 qubitects/
 │
 ├── qubitects.py
@@ -51,6 +54,7 @@ qubitects/
 ├── heartsound_wav2vec_qnn.pt
 │
 └── README.md
+```
 
 Models Included
 | Model                            | Description                                    |
