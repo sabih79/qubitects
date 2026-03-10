@@ -59,12 +59,13 @@ qubitects/
 ├── heartsound_wav2vec_qnn.pt
 │
 └── README.md
+
 Models Included
-Model	Description
-Lung_Sound_vgg.pt	Lung sound classification model
-breastcancer_vgg.pt	Breast cancer ultrasound detection
-breast-thermography_vgg_qnn.pt	Breast thermography hybrid QNN
-heartsound_wav2vec_qnn.pt	Heart sound classification using Wav2Vec + QNN
+Model					Description
+Lung_Sound_vgg.pt			Lung sound classification model
+breastcancer_vgg.pt			Breast cancer ultrasound detection
+breast-thermography_vgg_qnn.pt		Breast thermography hybrid QNN
+heartsound_wav2vec_qnn.pt		Heart sound classification using Wav2Vec + QNN
 
 Installation
 ------------
@@ -87,11 +88,11 @@ To train models, run the relevant Jupyter Notebook file inside the training fold
 Examples:
 ---------
 
-training/hybrid_vgg_qnn_torchconnector_breast_ultrasound.ipynb
-training/hybrid_vgg_qnn_torchconnector_breast_thermography.ipynb
-training/hybrid_vgg_qnn_torchconnector_lungsound3.ipynb
-training/hybrid_vgg_qnn_torchconnector_heartsound2.ipynb
-training/hybrid_vgg_qnn_torchconnector_skin_disease.ipynb
+jupyter notebook training/hybrid_vgg_qnn_torchconnector_breast_ultrasound.ipynb
+jupyter notebook training/hybrid_vgg_qnn_torchconnector_breast_thermography.ipynb
+jupyter notebook training/hybrid_vgg_qnn_torchconnector_lungsound3.ipynb
+jupyter notebook training/hybrid_vgg_qnn_torchconnector_heartsound2.ipynb
+jupyter notebook training/hybrid_vgg_qnn_torchconnector_skin_disease.ipynb
 
 Each notebook contains the complete training pipeline including data preprocessing, model architecture, training loop, and evaluation metrics.
 
