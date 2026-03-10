@@ -27,15 +27,7 @@ Architecture
 
 The hybrid architecture typically follows this structure:
 
-Input Data
-    ↓
-Feature Extractor (CNN / VGG / Wav2Vec)
-    ↓
-Classical Dense Layers
-    ↓
-Quantum Neural Network (Variational Quantum Circuit)
-    ↓
-Classifier Output
+Input Data -> Feature Extractor (CNN / VGG / Wav2Vec) -> Classical Dense Layers -> Quantum Neural Network (Variational Quantum Circuit) -> Classifier Output
 
 The project uses Qiskit Machine Learning integrated with PyTorch through the TorchConnector, enabling hybrid quantum-classical model training.
 
